@@ -15,7 +15,7 @@ If you do not have python installed, please follow instructions here: [Download 
 It will launch an interactive GUI which can be used to automatically rename your video files.
 I've written this to be OS independent and I've tested it manually on Windows 10. YMMV for other platforms.
 
-If you do not want to install python, you can grab a compiled executable zip here: [Download VidNamer for Windows](https://github.com/atadkase/VidNamer/suites/2806735111/artifacts/62429273)
+If you do not want to install python, you can grab a compiled executable zip here: [Download VidNamer for Windows](https://github.com/atadkase/VidNamer/releases/download/v1.0/vidnamer_v1.0_windows.zip)
 
 Github does not provide a permanent URL for the latest artifact, so I have to update this link manually. 
 
