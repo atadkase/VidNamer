@@ -280,9 +280,12 @@ ttk.Checkbutton(
     variable=check_before_dir_merge,
 ).grid(row=5, column=1)
 
+
+backup_label = Label(root, text="Backup Files Before Use!!!", fg="Red")
+backup_label.grid(row=6, column=1)
 # Rename Button
 btnStartRename = ttk.Button(root, text="Start Renaming!", command=renameVideos)
-btnStartRename.grid(row=6, column=1)
+btnStartRename.grid(row=7, column=1)
 
 app = VidNamer()
 
