@@ -17,8 +17,6 @@ I've written this to be OS independent and I've tested it manually on Windows 10
 
 If you do not want to install python, you can grab a compiled executable zip here: [Download VidNamer for Windows](https://github.com/atadkase/VidNamer/releases/download/v1.0/vidnamer_v1.0_windows.zip)
 
-Github does not provide a permanent URL for the latest artifact, so I have to update this link manually. 
-
 ## Using the tool
 ### Backup all files before using this tool!
 I cannot stress the importance of backing up your files more. This tool is not written to production standards and may have bugs. Use it at your own risk.
