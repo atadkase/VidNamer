@@ -25,7 +25,7 @@ I cannot stress the importance of backing up your files more. This tool is not w
 
 Now that we've gotten the disclaimer out of the way, we can talk about the operation of the tool.
 The tool has a simple UI:
-![VidNamer_ui](/screenshots/ui_pic.JPG "VidNamer UI")
+![VidNamer_ui](/screenshots/ui_pic.jpg "VidNamer UI")
 
 The `Browse Directory` button allows you to select the directory containing the videos. The tool will not process directories inside that directory. Please file an issue if you need recursion.
 
