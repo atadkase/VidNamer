@@ -158,7 +158,7 @@ class VidNamer:
                             title="File exists",
                             message=f"Found existing video at {dest_path}. "
                             f"Do you want to overwrite it with {source_path}?"
-                            "\nIf you select no, an automated indexing scheme will be used",
+                            "\nIf you select 'No', an automated indexing scheme will be used",
                         )
                     else:
                         print("Using automated numbering per flag")
@@ -189,6 +189,9 @@ class VidNamer:
                             # Need to enter UI loop for getting an alternative path
                             print(f"Internal Error. Exiting")
                             break
+                    elif overwrite_existing is None:
+                        print(f"Skipping file: {filename}")
+                        continue
 
                     print(dest_path)
                 if self.copy_instead_of_move:

@@ -31,7 +31,7 @@ You can then set each of the following options:
 
 - `Ask for custom prefix per video group`: For each new video group the tool detects, it will prompt for a custom prefix to add to the video name. The prefix will be suffixed by the chapter numbers from the source video files for getting the new names.
 - `Create a new directory per video group`: This will create a new directory for each new group and move the renamed files to that directory.
-- `Copy videos instead of moving`: I highly recommend keeping this box checked unless you have your files backed up somewhere. If you uncheck this, the tool will just rename the files, but if the filenames clash, it may overwrite existing files based on your selection. If you do not have any clashing names, it is much faster to disable this option.
+- `Copy videos instead of moving`: I highly recommend keeping this box checked unless you have your files backed up somewhere. If you uncheck this, the tool will just rename the files, but if the filenames clash, it may overwrite existing files based on your selection. If you don;t have any filename clashes, disabling this option will result in faster operation.
 - `Use auto numbering scheme for filename conflicts`: Only disable this if you know that you want to overwrite existing files. If this option is enabled the tool will read the latest files in the target directory and autoincrement the chapter index to avoid filename conflicts.
 - `Ask before writing to an existing directory`: Will prompt the user when the target directory already exists.
 
